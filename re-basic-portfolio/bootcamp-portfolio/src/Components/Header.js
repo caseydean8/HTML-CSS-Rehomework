@@ -1,23 +1,38 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header style={headerStyle} >
-      <h1>Casey Carroll</h1>
-      <Link style={linkStyle} to="/">About</Link> | <Link style={linkStyle} to="/portfolio">Portfolio</Link> | <Link style={linkStyle} to="/contact">Contact</Link>
+    <header style={headerStyle}>
+      <div style={headerContainer}>
+        <h1>Casey Carroll</h1>
+        <div style={linkStyle}>
+          <Link to="/">About</Link> | <Link to="/portfolio">Portfolio</Link> |{" "}
+          <Link to="/contact">Contact</Link>
+        </div>
+      </div>
     </header>
-  )
+  );
 }
 
 const headerStyle = {
-  background: '#ecf0f1',
-  padding: '10px'
-}
+  background: "#ECF0F1"
+};
+
+const headerContainer = {
+  width: "960px",
+  margin: '0 auto',
+  padding: "10px",
+  position: "relative",
+  textAlign: "left",
+  color: "#2C3E50",
+};
 
 const linkStyle = {
-  color: '#2c3e50'
-}
+  position: "absolute",
+  top: "0px",
+  right: "0px",
+  paddingTop: "37px"
+};
 
-export default Header
-
+export default Header;
