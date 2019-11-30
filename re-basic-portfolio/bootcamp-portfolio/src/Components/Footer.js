@@ -15,6 +15,9 @@ const footerStyle = {
   height: '75px',
   borderTop: '8px solid',
   borderColor: '#2980B9',
+  position: 'absolute',
+  bottom: '0',
+  width: '100%'
 }
 
 export default Footer
