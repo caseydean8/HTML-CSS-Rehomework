@@ -6,7 +6,7 @@ function Header() {
     <header style={headerStyle}>
       <div style={headerContainer}>
         <div style={casey}>
-          <h1>Casey Carroll</h1>
+          <h1 style={ {color: "#ECF0F1"} }>Casey Carroll</h1>
         </div>
         <div style={linkStyle}>
           <Link to="/">About</Link> | <Link to="/portfolio">Portfolio</Link> |{" "}
@@ -31,7 +31,6 @@ const headerContainer = {
 const casey = {
   background: '#2C3E50',
   width: '200px',
-  color: '#ECF0F1',
   padding: '1px 20px',
 }
 

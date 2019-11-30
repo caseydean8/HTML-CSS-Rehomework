@@ -1,0 +1,16 @@
+.content {
+  width: 916px;
+  height: auto;
+  margin: 0 auto;
+  text-align: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #33CCCC;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #2C3E50
+}
