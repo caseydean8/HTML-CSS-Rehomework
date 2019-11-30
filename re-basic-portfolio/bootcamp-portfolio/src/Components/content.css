@@ -1,3 +1,18 @@
+a {
+  color: #33CCCC;
+  text-decoration: none;
+  padding: 15px;
+}
+
+button {
+  width: 80px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
 .content {
   width: 916px;
   height: auto;
@@ -8,7 +23,8 @@
   border-color: #33CCCC;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 0 20px;
+  padding: 0 20px 20px;
+  border-radius: 10px;
 }
 
 h1 {
@@ -16,13 +32,21 @@ h1 {
   border-bottom: 3px solid #33CCCC;
 }
 
-span {
-  height: 2px;
-  background: #33CCCC
+input {
+  width: 100%;
+  margin: 10px 0;
+  height: 20px;
 }
 
-a {
-  color: #33CCCC;
-  text-decoration: none;
-  padding: 15px;
+li {
+  list-style-type: none;
 }
+
+#message {
+  height: 60px;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
