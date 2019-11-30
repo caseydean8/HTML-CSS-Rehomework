@@ -12,5 +12,17 @@
 }
 
 h1 {
-  color: #2C3E50
+  color: #2C3E50;
+  border-bottom: 3px solid #33CCCC;
+}
+
+span {
+  height: 2px;
+  background: #33CCCC
+}
+
+a {
+  color: #33CCCC;
+  text-decoration: none;
+  padding: 15px;
 }

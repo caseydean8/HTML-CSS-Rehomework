@@ -6,11 +6,10 @@ function Header() {
     <header style={headerStyle}>
       <div style={headerContainer}>
         <div style={casey}>
-          <h1 style={ {color: "#ECF0F1"} }>Casey Carroll</h1>
+          <h1 style={ {color: "#ECF0F1", borderBottom: 'none'} }>Casey Carroll</h1>
         </div>
         <div style={linkStyle}>
-          <Link to="/">About</Link> | <Link to="/portfolio">Portfolio</Link> |{" "}
-          <Link to="/contact">Contact</Link>
+          <Link to="/">About</Link> | <Link to="/portfolio">Portfolio</Link> | <Link to="/contact">Contact</Link>
         </div>
       </div>
     </header>
@@ -18,7 +17,9 @@ function Header() {
 }
 
 const headerStyle = {
-  background: "#ECF0F1"
+  background: "#ECF0F1",
+  borderBottom: "2px solid",
+  borderColor: "#33CCCC"
 };
 
 const headerContainer = {
@@ -37,8 +38,9 @@ const casey = {
 const linkStyle = {
   position: "absolute",
   top: "0px",
-  right: "0px",
-  paddingTop: "37px"
+  right: "-15px",
+  paddingTop: "33px",
+  color: "#33CCCC"
 };
 
 export default Header;
