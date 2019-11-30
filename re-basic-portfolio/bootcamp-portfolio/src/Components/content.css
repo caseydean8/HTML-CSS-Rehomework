@@ -33,6 +33,11 @@ h1 {
   border-bottom: 3px solid #33CCCC;
 }
 
+img {
+  height: 200px;
+  padding: 20px 20px 0 0;
+}
+
 input {
   width: 100%;
   margin: 10px 0;
