@@ -18,7 +18,7 @@ const footerStyle = {
   position: 'absolute',
   bottom: '0',
   width: '100%',
-  clear: 'both'
+  // clear: 'both'
 }
 
 export default Footer
