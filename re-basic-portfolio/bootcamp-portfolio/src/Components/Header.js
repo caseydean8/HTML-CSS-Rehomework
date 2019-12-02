@@ -31,8 +31,9 @@ const headerContainer = {
 
 const casey = {
   background: '#2C3E50',
-  width: '200px',
+  width: '240px',
   padding: '1px 20px',
+  borderRadius: '5px'
 }
 
 const linkStyle = {

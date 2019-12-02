@@ -1,5 +1,20 @@
+ * {
+  box-sizing: border-box;
+} 
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
 a {
-  color: #33CCCC;
+  color: #33cccc;
   text-decoration: none;
   padding: 15px;
 }
@@ -13,15 +28,26 @@ button {
   font-size: 14px;
 }
 
+.caption {
+  text-align: center;
+  background: #33cccc;
+  width: 380px;
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  padding: 10px;
+  font-size: large;
+}
+
 .content {
-  width: 916px;
+  width: 960px;
   height: auto;
   margin: 0 auto;
   text-align: left;
   background: #ecf0f1;
   border-width: 2px;
   border-style: solid;
-  border-color: #33CCCC;
+  border-color: #33cccc;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 20px 20px;
@@ -29,19 +55,26 @@ button {
 }
 
 h1 {
-  color: #2C3E50;
-  border-bottom: 3px solid #33CCCC;
+  color: #2c3e50;
+  border-bottom: 3px solid #33cccc;
+}
+
+.image {
+  float: left;
+  position: relative;
+  width: 400px;
 }
 
 img {
-  height: 200px;
-  padding: 20px 20px 0 0;
+  width: 400px;
+  padding: 0px 20px 0 0;
 }
 
 input {
   width: 100%;
   margin: 10px 0;
   height: 20px;
+  border-radius: 1px
 }
 
 li {
@@ -52,7 +85,10 @@ li {
   height: 60px;
 }
 
+.portfolio-bottom {
+  padding-top: 20px;
+}
+
 ul {
   padding-inline-start: 0;
 }
-

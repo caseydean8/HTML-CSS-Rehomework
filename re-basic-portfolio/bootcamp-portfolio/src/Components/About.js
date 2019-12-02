@@ -16,7 +16,6 @@ function About() {
 const imageStyle = {
   width: '200px',
   float: 'left',
-  margin: '0 20px 0 0'
 }
 
 export default About

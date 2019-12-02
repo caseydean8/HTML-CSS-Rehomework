@@ -17,7 +17,8 @@ const footerStyle = {
   borderColor: '#2980B9',
   position: 'absolute',
   bottom: '0',
-  width: '100%'
+  width: '100%',
+  clear: 'both'
 }
 
 export default Footer
