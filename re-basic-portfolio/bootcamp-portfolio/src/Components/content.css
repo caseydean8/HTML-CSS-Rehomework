@@ -33,7 +33,7 @@ button {
   background: #33cccc;
   width: 380px;
   position: absolute;
-  bottom: 10px;
+  bottom: 40px;
   color: white;
   padding: 10px;
   font-size: large;
@@ -63,6 +63,7 @@ h1 {
   float: left;
   position: relative;
   width: 400px;
+  padding-bottom: 20px
 }
 
 img {
@@ -90,7 +91,7 @@ li {
 }
 
 #portfolio {
-  height: 1000px
+  height: 1010px;
 }
 
 ul {
