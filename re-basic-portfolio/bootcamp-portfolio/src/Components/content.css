@@ -89,6 +89,10 @@ li {
   padding-top: 20px;
 }
 
+#portfolio {
+  height: 1000px
+}
+
 ul {
   padding-inline-start: 0;
 }

@@ -7,7 +7,7 @@ import concertPic from "../Images/concert.jpg";
 
 function Portfolio() {
   return (
-    <div className="content">
+    <div className="content" id="portfolio">
       <h1>Portfolio</h1>
       <div className="image">
         <img src={subPic}></img>
