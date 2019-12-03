@@ -10,32 +10,32 @@ function Portfolio() {
     <div className="content" id="portfolio">
       <h1>Portfolio</h1>
       <div className="image">
-        <img src={subPic}></img>
+        <img src={subPic} alt="submarine"></img>
         <div className="caption">
           Submarine
         </div>
       </div>
       <div className="image">
-        <img src={ahoyPic}></img>
+        <img src={ahoyPic} alt=""></img>
         <div className="caption">
           Ahoy
         </div>
       </div>
       <div className="image">
-        <img src={hippyPic}></img>
+        <img src={hippyPic} alt=""></img>
         <div className="caption">
           Crystal Vibes
         </div>
       </div>
 
       <div className="image">
-        <img src={friendPic}></img>
+        <img src={friendPic} alt=""></img>
         <div className="caption">
          Friendsational
         </div>
       </div>
       <div className="image">
-        <img src={concertPic}></img>
+        <img src={concertPic} alt=""></img>
         <div className="caption">
           Mudio
         </div>
