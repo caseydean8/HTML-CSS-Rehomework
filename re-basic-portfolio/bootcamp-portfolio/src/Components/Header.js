@@ -23,7 +23,7 @@ const headerStyle = {
 };
 
 const headerContainer = {
-  width: "960px",
+  maxWidth: "960px",
   margin: "0 auto",
   position: "relative",
   color: "#2C3E50"
@@ -40,7 +40,7 @@ const linkStyle = {
   position: "absolute",
   top: "0px",
   right: "-15px",
-  paddingTop: "33px",
+  padding: "33px 15px",
   color: "#33CCCC"
 };
 

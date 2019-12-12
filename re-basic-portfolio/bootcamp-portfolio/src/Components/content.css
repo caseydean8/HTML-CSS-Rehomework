@@ -40,7 +40,7 @@ button {
 }
 
 .content {
-  width: 960px;
+  max-width: 960px;
   height: auto;
   margin: 0 auto;
   text-align: left;
@@ -96,4 +96,10 @@ li {
 
 ul {
   padding-inline-start: 0;
+}
+
+@media screen and (max-width: 990px) {
+  .content {
+    margin: 15px;
+  }
 }
