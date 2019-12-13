@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header style={headerStyle}>
-      <div style={headerContainer}>
-        <div style={casey}>
+      <div className="header-container">
+        <div className="name-box">
           <h1 style={ {color: "#ECF0F1", borderBottom: 'none'} }>Casey Carroll</h1>
         </div>
         <div className="header-links">
@@ -29,12 +29,12 @@ const headerContainer = {
   color: "#2C3E50"
 };
 
-const casey = {
-  background: '#2C3E50',
-  width: '240px',
-  padding: '1px 20px',
-  borderRadius: '5px'
-}
+// const casey = {
+//   background: '#2C3E50',
+//   width: '240px',
+//   padding: '1px 20px',
+//   borderRadius: '5px'
+// }
 
 // const linkStyle = {
 //   position: "absolute",

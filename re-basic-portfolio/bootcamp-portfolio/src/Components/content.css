@@ -1,6 +1,6 @@
- * {
+* {
   box-sizing: border-box;
-} 
+}
 
 *:before,
 *:after {
@@ -59,19 +59,26 @@ h1 {
   border-bottom: 3px solid #33cccc;
 }
 
+.header-container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  color: #2c3e50;
+}
+
 .header-links {
   position: absolute;
   top: 0;
   right: -15px;
   padding: 33px 15px;
-  color: #33CCCC
+  color: #33cccc;
 }
 
 .image {
   float: left;
   position: relative;
   width: 400px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 img {
@@ -83,7 +90,7 @@ input {
   width: 100%;
   margin: 10px 0;
   height: 20px;
-  border-radius: 1px
+  border-radius: 1px;
 }
 
 li {
@@ -94,12 +101,20 @@ li {
   height: 60px;
 }
 
+.name-box {
+  background: #2c3e50;
+  width: 240px;
+  padding: 1px 20px;
+  border-radius: 5px;
+}
+
 .portfolio-bottom {
   padding-top: 20px;
 }
 
 #portfolio {
   height: 1010px;
+  padding: 0 78px 0 78px;
 }
 
 ul {
@@ -111,6 +126,31 @@ ul {
     margin: 15px;
   }
 
+  .header-container {
+    margin: 0 15px 0 15px;
+  }
+
+  img,
+  .image {
+    width: 350px;
+  }
+
+  .caption {
+    width: 330px;
+  }
+
+  #portfolio {
+    height: 1440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .header-links {
     position: relative;
     right: 0;
