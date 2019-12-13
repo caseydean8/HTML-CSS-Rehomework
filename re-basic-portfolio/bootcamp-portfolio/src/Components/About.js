@@ -17,6 +17,7 @@ function About() {
 const imageStyle = {
   width: '200px',
   float: 'left',
+  paddingRight: '15px'
 }
 
 export default About
