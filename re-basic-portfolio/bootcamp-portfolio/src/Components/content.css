@@ -59,6 +59,14 @@ h1 {
   border-bottom: 3px solid #33cccc;
 }
 
+.header-links {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  padding: 33px 15px;
+  color: #33CCCC
+}
+
 .image {
   float: left;
   position: relative;
@@ -101,5 +109,10 @@ ul {
 @media screen and (max-width: 990px) {
   .content {
     margin: 15px;
+  }
+
+  .header-links {
+    position: relative;
+    right: 0;
   }
 }

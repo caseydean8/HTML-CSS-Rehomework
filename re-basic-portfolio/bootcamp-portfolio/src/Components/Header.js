@@ -8,7 +8,7 @@ function Header() {
         <div style={casey}>
           <h1 style={ {color: "#ECF0F1", borderBottom: 'none'} }>Casey Carroll</h1>
         </div>
-        <div style={linkStyle}>
+        <div className="header-links">
           <Link to="/">About</Link> | <Link to="/portfolio">Portfolio</Link> | <Link to="/contact">Contact</Link>
         </div>
       </div>
@@ -36,12 +36,12 @@ const casey = {
   borderRadius: '5px'
 }
 
-const linkStyle = {
-  position: "absolute",
-  top: "0px",
-  right: "-15px",
-  padding: "33px 15px",
-  color: "#33CCCC"
-};
+// const linkStyle = {
+//   position: "absolute",
+//   top: "0px",
+//   right: "-15px",
+//   padding: "33px 15px",
+//   color: "#33CCCC"
+// };
 
 export default Header;
