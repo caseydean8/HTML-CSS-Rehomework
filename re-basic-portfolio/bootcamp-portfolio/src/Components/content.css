@@ -78,12 +78,12 @@ h1 {
   float: left;
   position: relative;
   width: 400px;
-  padding-bottom: 20px;
+  padding: 0 10px 20px 10px;
 }
 
 img {
-  width: 400px;
-  padding: 0px 20px 0 0;
+  width: 380px;
+  /* padding: 0px 20px 0 0; */
 }
 
 input {
@@ -112,15 +112,17 @@ li {
   padding-top: 20px;
 }
 
-#portfolio {
-  height: 1010px;
-  padding: 0 78px 0 78px;
+.portfolio {
+  height: 964px;
+  width: 800px;
+  margin: 0 auto;
 }
 
 ul {
   padding-inline-start: 0;
 }
 
+/* ------------ MEDIA QUERIES BELOW MOFO ----------- */
 @media screen and (max-width: 990px) {
   .content {
     margin: 15px;
@@ -130,23 +132,29 @@ ul {
     margin: 0 15px 0 15px;
   }
 
-  img,
   .image {
     width: 350px;
   }
-
+  img,
   .caption {
     width: 330px;
   }
 
-  #portfolio {
-    height: 1440px;
+  .portfolio {
+    height: 856px;
+    max-width: 700px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content {
     margin: 0;
+    border-color: #ecf0f1 ;
+    border-radius: 0;
+  }
+  .portfolio {
+    max-width: 350px;
+    height: 1396px;
   }
 }
 
