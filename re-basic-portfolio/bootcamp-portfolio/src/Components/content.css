@@ -83,7 +83,6 @@ h1 {
 
 img {
   width: 380px;
-  /* padding: 0px 20px 0 0; */
 }
 
 input {
@@ -126,6 +125,7 @@ ul {
 @media screen and (max-width: 990px) {
   .content {
     margin: 15px;
+    min-width: 320px;
   }
 
   .header-container {
@@ -135,6 +135,7 @@ ul {
   .image {
     width: 350px;
   }
+
   img,
   .caption {
     width: 330px;
@@ -149,18 +150,52 @@ ul {
 @media screen and (max-width: 768px) {
   .content {
     margin: 0;
-    border-color: #ecf0f1 ;
+    border-color: #ecf0f1;
     border-radius: 0;
   }
   .portfolio {
     max-width: 350px;
-    height: 1396px;
+    height: 1416px;
   }
 }
 
 @media screen and (max-width: 640px) {
+  .content {
+    padding: 0 15px;
+  }
+
   .header-links {
     position: relative;
     right: 0;
+  }
+
+  .name-box {
+    margin: 0 auto;
+  }
+}
+
+/* ------ iphone 5 ------ */
+@media screen and (max-width: 360px) {
+  .content {
+    padding: 0;
+  }
+
+  .header-links {
+    min-width: 320px;
+    margin-left: -15px;
+  }
+
+  .image {
+    width: 320px;
+  }
+
+  img,
+  .caption {
+    width: 300px;
+  }
+
+  .portfolio {
+    width: 320px;
+    padding: 0 -15px;
   }
 }

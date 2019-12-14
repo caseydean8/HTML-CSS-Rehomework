@@ -22,12 +22,12 @@ const headerStyle = {
   borderColor: "#33CCCC"
 };
 
-const headerContainer = {
-  maxWidth: "960px",
-  margin: "0 auto",
-  position: "relative",
-  color: "#2C3E50"
-};
+// const headerContainer = {
+//   maxWidth: "960px",
+//   margin: "0 auto",
+//   position: "relative",
+//   color: "#2C3E50"
+// };
 
 // const casey = {
 //   background: '#2C3E50',
